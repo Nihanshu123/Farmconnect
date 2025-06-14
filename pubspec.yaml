@@ -1,0 +1,53 @@
+name: farmconnect
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^13.0.2
+  intl: ^0.17.0
+  cupertino_icons: ^1.0.6
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.3.0
+  google_sign_in: ^6.2.1
+  image_picker: ^1.1.2
+  firebase_storage: ^12.3.0
+  video_player: ^2.9.1
+  http: ^1.2.2
+  tflite_flutter: ^0.11.0
+  image: ^3.3.0
+  flutter_image_compress: ^2.3.0
+  file_picker: ^5.0.1
+  pdf : ^3.8.1
+  path_provider: ^2.0.14
+
+
+
+dev_depenencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/light_green.jpg
+    - assets/logo1.png
+    - assets/model_unquant_a.tflite
+    - assets/model_unquant_b.tflite
